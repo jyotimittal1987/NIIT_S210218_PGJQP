@@ -1,0 +1,41 @@
+s/w : 
+- 3 layers
+Presentation layer : Front End : View through which end user is interacting
+	HTML, CSS, 
+Business logic layer : Logics : c++, Java ,
+Data Access layer   : Which stores Data : Back End :SQL Server.
+
+Single Tier Architecture :
+All the layers will be in there in 1 machine only.
+
+=================================================
+2 tier architecture :client -server architecture
+
+3 tier architecture : 
+
+N -tier/Multi tier Architecture
+
+SQL Categories:
+DDL  : Data Definition Language : (structure) : create, alter, drop
+DML  : Data manipulation Language : Data : insert, update, delete
+DCL  : Data control Language : Grant, Revoke
+DQL  : data Query Language : Select 
+
+===========================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
