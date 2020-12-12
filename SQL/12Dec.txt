@@ -1,0 +1,25 @@
+Index: Is used to implement the fast searching of records in table. This improves the query performance on server.
+
+select * from emp--billions of records.
+
+2 types of index:
+1)Clustered index  : 
+-It can be only 1 in a table .
+-If you have PK in a table, automatically it puts the clustered index in that.
+-Internally, it does the physical sorting of records
+
+EmpId: PK : 
+101 102 103 104 105
+select * from emp where id=104
+
+2)Non clustered index :
+-It is possibility that you want to search record based on some differnt column.
+-Can be around 249 or more in a table. name, address, 
+-It does logical sorting of data
+  102 106 109 103 
+
+
+
+
+
+ 
