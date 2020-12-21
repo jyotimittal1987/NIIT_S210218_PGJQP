@@ -1,0 +1,21 @@
+To accept a character,
+
+char ch;
+ch=sc.next().charAt(0);
+========================================================================
+
+Task 1: Interchange of public, static..
+=======================================================
+Task 2: Do Practise on variation of saving java file.
+- Save the file with any name and then execute it.
+-Save the file with class name and then execute it.
+- Save the file without public class name and then execute it
+-Save the file with public class name and then execute it.
+============================================================
+
+Task 3: Complete Assignment 1
+
+===========================================================
+Task 4 : Submit practise Exercise.
+
+===========================================================
