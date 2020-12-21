@@ -1,0 +1,77 @@
+Data Types : The type of value store in a variable.
+You want to fill an online form :
+
+Name : " John"  -Alphabets
+Age:    54     numeric   ... a,b,c,d
+Contact No:    numeric   ...asdsdsd
+Email Id:      alpahnumeric characters 
+
+========================================================
+Data types are of 1 categories in Java :
+
+1)Primitive Data types
+2)Non primitive data types
+
+=====================================================
+1)Primitive data types : Basic data types like 
+
+int   : 
+char
+float
+double
+byte
+short
+long
+
+2)Non primitive data types:that are based on objects like arrays, strings ,class, Interface..
+
+==========================================================================================
+Variable : It is a location in memory which stores some value.
+
+int num=10;
+
+Rules to declare variable :
+1)A variable name must be meaningful.
+2)No space is allowed while declaring the variable name. We can separate it by_.
+3)It should begin with a letter or_ followed by digit.
+4)It should not start with a digit.
+5)No special characters are allowed while declaring the varaible name.
+6)Keywords should not be variable name.
+
+Eg : #name  -Invalid
+     first name -Invalid
+     name1  -Valid
+==================================================================================
+To accept the value from user , we ue the Scanner class.
+
+===================================================================
+package : A collection of classes, interfaces, methods 
+JDK : predefined packaages :
+Predefined packages : java.lang(Default package), java.util, java.io, java.sql 
+User Defined Packages 
+
+=================================================================
+Scanner is a predefined class in java.util package helps to take input from user.
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

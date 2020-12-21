@@ -1,0 +1,98 @@
+JDK  : 
+JRE  :
+Byte code(Intermediatory code):
+JVM : Java Virtual Machine
+
+Role :
+1)To execute the byte code into native code(machine specific code).
+
+JVM will consists of :
+1)class Loader
+2)Byte code verifier
+3)JIT compilor
+
+compile : javac Demo.java   --JDK  - Generate the .class file
+Run :     java Demo         --JVM looks for main method         
+--------------------------------------------------------------------
+2)Byte code verifier :
+- It checks the validity of the .class file code and this process is 
+known as verfication.
+- checks
+	- uninitailized variables
+	-private , public mode
+	-Inherit any final method in subclass..
+
+
+JVM Intreprets the code :
+
+Java is both compiled and Interpreted:
+
+Source code-Byte code - Compiling
+Byte-Native code -      Interpreting 
+
+=========================================================
+3) JIT (Just in Time compiler)
+-  It is a part of JVM which is boosting the performance of Java code.
+- Eg : You have compiled 1 method, now we are invoking it, can be invoked multiple times..
+JVM will call the compiled code of the method instead of interpreting it again.
+
+==========================================================
+First Java Program :
+
+object : Anything that exists in real world.
+Eg : Chair :
+state    : Properties/Attributes : Color,Type,Material,Shape
+behaviour : Working  : sit
+Identity : Model No
+Eg : Student 
+State :Stu Id, NAme, Marks,age,contact no
+Behaviour : study, Avg_marks 
+Identity : Stu Id 
+
+Two objects can have same state and behaviour but never they will have same identity.
+=======================================================================
+
+Java is not pure oops..  everthing should be based on objects
+  because it contains primitive types like int,byte,short,long,float..
+
+sometimes, we want to behave these primitive types as objects , to do this wrapper class has been introduced
+
+==============================================================
+Rules :
+1)Save the file name with class name that contains main
+2) If saving the file name with any name , then compile the code with file name and execute it with main class
+name.
+3) If .java file contains public class, save the file name with public class name only , but execution will be done from the main class name.
+
+====================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

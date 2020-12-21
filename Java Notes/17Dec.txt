@@ -1,0 +1,128 @@
+Module Test1 1: c++, Data Structure, SQL
+Module Test 2: Java,HTML,TDD,Adv Java  --Exam :70 %
+=========================================================================
+Java :
+-It is a programming Language which is used to develop the s/w given by Sun Microsystems.
+-James Gosling develop the Java in 1995.
+- It is based on oops concepts.
+-Every code has to be written using oops concepts, but then also it is not pure oops based language.
+-Initially, it was named as OAK, but it was registerd name so, later on they change the name to Java.
+-set top boxes,
+-Java is an island in Indonesia,  where coffee beans were there. 
+
+
+Is c++ pure oops based language ?No .
+In c++, We can do programming with classes or without classes also.
+
+
+What do you mean by oops?
+- Object Oriented Programming Language
+- It is a programming methodology to develop the software.
+================================================================================================
+Different types of applications :
+
+1)Console Based Application : 
+-When you are executing application in console window, where it working based on commands , that is known as Console Based application.
+-No User Interface like links, buttons.
+
+2)Desktop/Standalone Application:
+-Are those which has to installed on client machine.
+-Eg : MS Office
+
+3)Web based application
+-Are those that are accessible through browser.
+-Chrome, Mozilla, Internet Explorer are browsers.
+-Eg : Youtube, Google, gmail, Microsoft, Wikipedia 
+
+4)Mobile based application
+-are those which are installed on mobile devices.
+-You can install it from PlayStore.
+-whatapp, Ola, Zomato
+-ios,android, windows
+
+5)Gaming application
+-these are speacialized app
+-Eg : Playstations
+
+====================================================================================================
+Features of Java :
+
+1) Simple : Easy to Learn, syntax are very easy, easy to understand.
+2)OOPs : Everything in Java is based on oops.It will use all features like Class, objects,Encapsulation,Abstraction, Inheritance, Polymprphism
+3)Platform Independent : 
+- Platform : Environment where you are executing code
+		- hardware or - software
+		-Java is actually providing the software environment-JRE, API
+-WORA-Write once, Run Anywhere
+- c++ - Write, Build, Run - Windows
+Java - platform Independent
+
+4)Portable :We can execute java byte code to any platform.
+5)Distributed: Java has the ability to call the files/methods reside on multiple machines/location.
+6)Secured: Java is very secured..
+- In java, implicitly pointers are maintained. 
+- Explicitly, we can't work on pointers.
+
+7)Robust : Java is a strong language
+-No explicit pointers are maintained
+-Automatic Memory Management (Garbage collection)
+-Type checking .
+
+8) Multithreaded: 
+- Same memory area can be used to execute multiple threads thus saving memory.
+
+=============================================================================
+JDK : Java Development Kit
+-  If you want to develop a Java code , the you need JDK in your machine.
+-It contains everything required to develop a code.
+============================================================================
+JRE : Java Runtime Environment
+- If you want to execute a Java code, you need JRE in your machine.
+-It contains everything which helps to run Java application which is already compiled.
+===============================================================================
+Java Program gets executed in 2 phase :
+1)Compilation Phase
+2)Execution Phase: ClassLoader
+
+Java is platform Independent but JRE is platform dependent.
+JVM : Java virtual machine
+-It is a virtual machine which works over your OS, and it execute the compiled code.
+-JVM only works with byte code.
+-JVM will convert your byte code and generate the machine specific code.
+-JVM takes care of portability.
+
+================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
