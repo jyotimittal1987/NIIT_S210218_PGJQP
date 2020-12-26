@@ -1,0 +1,93 @@
+Operators :
+a=10, b=20
+a + b 
+
+1)Arithmetic operators   : +, -, *, /, %
+2)Arithmetic Assignment operator : +=,-=,*=,/=,%=
+3)Comparison operator/Relational : >,>=,<,<=,==
+4)Logical operator : AND(&&),OR(||),NOt(!)
+5)Unary Operator : ++, --
+6)Bitwise Operator
+7)Shift operator
+
+
+=============================
+a=10, b=20
+c=a+b : we need third variable 
+a=10,b=20,c=30
+
+a+=b  
+=>a=a+b 
+
+b+=a
+b=b+a
+a=30,b=20  
+
+int num1,num2;
+float num3;
+double num4;---20 bytes
+
+
+Assume : 30MB : 
+=====================================
+Decision Making : 
+1) ATM , pin no, whether this pin no is correct or not..
+2) Online payment, -> Credit card, Debit card, UPI, Net banking..
+
+
+-evaluate any condition
+-Select 1 from multiple options..
+
+=========================================================
+Simple If
+If else
+Nested if else
+Cascading/Ladder if else
+Switch case
+=================================================
+Loops:If we want to repeat a set of instructions again and again, in that case we can use loops.
+
+Types of loops:
+1)for: If the  number of iterations are known , we use the for loop
+2)while : Till the condition is true, we use while loop
+
+But in the for and while we can enter only if initial condition is true, else we wont be able to enter in loop
+3) do while:
+
+Atleast once, it execute the loop irrespective of condition, for the second iteration it checks for condition, if condition is true, we enter into the loop, else not.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

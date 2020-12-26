@@ -1,0 +1,66 @@
+Inspite of declaring multiple varaibles, we are declaring 1 varaible of same data type:
+-Memory consumption will be same.
+-Reducing the complexity.
+-Values in array can be accessed by indexing no.
+-By default indexing starts with 0 to n-1, n is the total no of elements.
+-All array elements will be at adjacent memory location.
+-Array is _static____ data structure.
+
+Declaration :
+
+1D array :
+
+int[] arr=new int[10];
+
+
+================================
+Operators : Bitwise operator, shift operator
+Arrays : 1D and 2D
+arrayname.length 
+For each loop in java 
+
+=========================================================
+24th and 25th - holiday 
+Next clas : 26th at 5:30 p:m.
+
+========================================================
+Complete Practise exercise : till ch 4
+complete study : till ch-4
+Decision, loops, arrays on Github : Java 
+=============================================================
+
+Exam : 26th  : Study 
+==========================================================
+Elimination :
+
+Q1)--------------
+
+a)select empid, salary.....
+b)select empid,
+
+c)select salary,
+d)
+
+===============================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
