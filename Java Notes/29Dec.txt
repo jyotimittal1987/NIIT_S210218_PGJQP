@@ -1,0 +1,123 @@
+Constructors :
+
+
+Eg :Open a bank Account in XYZ bank : 
+ 
+min_balance = 1000;
+
+Eg1: Open a Calculator, the default value should be 0 --constructor
+
+--Constructors are the special type of method where it is same name as of class name.
+--Constructors are used to initialize the member variable of class.
+--Constructors are automatically invoked as soon as instance of that class is created.
+--Constructors must not have explicit return type.
+class BankAccount
+{
+int min_balance;
+void BankAccount()
+{
+min_balance=1000;
+}
+
+}
+--Constructors in the Java cannot be static,final, abstract
+--It can be public, private,default,protected .
+--Constructors implicitly return the value of class type in which it is created.Constructor create and return the object of the class in which it is defined, that is why constructors do not have return type.
+
+--Singleton pattern
+--Design Pattern 
+==============================================================================================
+
+a)Constructor same name as that of class name, method with diff name
+b)constructiors no return type, method with return type
+c)constructors invoked auto, method has to invoked explicitly.
+
+==============================================================================================
+Types of constructors in Java :
+
+1)Default constructor
+2)no args constructor
+3)parameterized constructor
+
+==============================================================
+Default constructor :
+- Compilor invokes default constructor when no explicit constructor is declared.
+- It initialize objects, member variable with default value
+
+objects--null
+short,int -0
+float,double- 0.0
+
+class Calc
+{
+int num1,num2;
+public void add()
+{
+//code snippet
+}
+}
+class Driver
+{
+public static void main(String[] args)
+{
+Calc c1=new Calc();//it invokes constructor
+}
+}
+===================================================
+2)no args constructor: 
+
+class Calc
+{
+int num1,num2;
+Calc()
+{
+num1=0;
+num2=0;
+}
+public void add()
+{
+//code snippet
+}
+}
+class Driver
+{
+public static void main(String[] args)
+{
+Calc c1=new Calc();//it invokes no args constructor
+}
+}
+===============================================
+3)Parameterized constructor :
+
+class Calc
+{
+Calc(int a)
+{
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

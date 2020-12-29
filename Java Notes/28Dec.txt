@@ -1,0 +1,133 @@
+==================Recap ========================
+1)what is Java>
+2)Architecture-JDK, JRE, JVM, Class Loader, JIT, Byte code verifier..how to set path of java
+3)Simple Java code
+4)Data types, Variables, Operators
+5)Decision Making construct
+6)Loops
+7)Arrays..
+
+======================================================
+OOPs concepts :
+
+What do you mean by oops ?
+
+It is the methodology to develop the s/w.
+
+Features of OOPS :
+
+1)class
+2)Objects
+3)Encapsulation
+4)Abstraction
+5)Inheritance
+6)Polymorphism
+
+===================================================
+Objects : 
+
+- Any thing that exists in real world , which has state, behaviour and Identity is termed as object.
+- allocate the memory to clas
+-It's an instance of class
+-eg : Employee
+
+state :Attributes ..properties
+EmpId, EmpName, EmpSalary,EmpDesignation,EmpContactNo
+
+Behaviour : Working : Accept_empDetails, displayEmpDeatils
+
+Identity : EmpId
+
+- Two objects can have the same state and behaviour but never they will have same identity.
+
+1 company- 10,000 employess
+
+=======================================================
+class : 
+- It is user defined type.
+- It is a blueprint .
+- collection of objects of similar types
+- consists of member variables and methods 
+
+1 Team - develop a s/w- 10 emp
+
+class Employee
+{
+int empid; //Attribute ..member variable
+void accept_details()
+{
+//code snippet
+}
+
+}
+
+===================================================
+Method : 
+- What : ? A method is a block of code which is used to perform a specific task.
+- Why ? Once written the method, we can invoke n no of times depending upon requirement.
+How ?
+
+Method has 3 parts :
+1) Declaration
+2) Definition
+3) Calling
+
+2 catgories of Method :
+1)Pre defined  : main(),nextInt(),nextDouble(),println()
+2)User defined
+
+=================================================
+User defined method :
+
+<Access Specifier><return type><Method name>(<parameters list>)
+{
+
+//code snippet 
+
+}
+
+void accept_Details(int a)  //Declaration
+{
+//code snippet  //Method Body  or Definition
+}
+
+accept_Details() ;//calling 
+Parameters : 
+
+======================================
+class
+object
+member variable
+method
+
+=======================================
+Access specifier / Access Modifiers
+- restriction/visibility to member variable and method outside class.
+-Defining the scope of member varaibles/methods.
+4 type of access specifier
+-private: Members are accessible within the scope of class. We wont be able to access it outside the class
+-public: Members are accessible every where. NO restriction
+-protected :With in the same application, it will behave like default but outside application , only sub clas will be able to access it.
+-default: If we dont write any access specifier, be default, it will be  " default " access  specifier . Within that application, all member variables and methods will be accessible.Nothign will be accessible outside the application.
+
+class Employee
+{
+protected  int id;
+
+}
+===package ==========================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
