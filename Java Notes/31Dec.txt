@@ -1,0 +1,93 @@
+Strings in Java :
+
+char - Data type which can store only 1 character 
+
+char ch='a';
+char ch1='$';
+char ch2='2';
+
+Store the name of the user      : John :  'J','o','h','n'
+Store the email id of the user
+
+- Strings are sequence of characters
+- String is not a data type , but it is a class in java that is available in java.lang package 
+
+java.lang.String
+- In java, objects of Strings are immutable,means it is constant once created , that string is not modified.
+
+str1= "Hello"
+
+"Hello" + "World"
+
+Hello World
+
+- In java, string objects can be created by 2 ways :
+	-By String literal
+	-By new keyword
+
+===============================================================================================
+1) String literal :It is created by directly assigning the value in double quotes.
+
+
+
+String constant Pool : 
+-It contains collection of strings . 
+-String objects gets stored in an special memory area known as string constant pool.
+
+
+String str1="Welcome";
+String str2="Hello";
+String str3="Hello";
+
+Adv : Memory efficient 
+
+str2.concat("World");//Hello World
+
+
+2)By new keyword:
+
+String s1=new String("NIIT");//2 objects 
+
+1 in the heap memory and 2 reference in SCP.
+
+String s2=new String("NIIT");
+
+
+============================================================================
+== : It checks whether both objects are refering to the same instances.It returns true if match is successful.
+
+equals : compare the two string for equality.
+
+====================================================================
+String Buffer : 
+- It is synchronized
+- It is thread safe: 2 threads won't be able to call a method simultaneously
+-less efficient
+String Builder 
+- It is non synchronized
+-It is not thread safe.
+-More efficient 
+
+
+split method
+stringtokenizer  class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
